@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Form Fields - Day 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--      Include Font Awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <H1>Dynamic Fields Javascript</H1>
+    <div class="wrapper">
+        <div id="survey_options">
+       <input type="text" name="survey_options[]" class="survey_options" size="50" placeholder="Name">
+       <input type="text" name="survey_options[]" class="survey_options" size="50" placeholder="Email">
+       <input type="text" name="survey_options[]" class="survey_options" size="50" placeholder="Another Field">
+       </div>
+       <div class="controls">
+        <a href="#" id="add_more_fields"><i class="fa fa-plus">Add More</i></a>
+        <a href="#" id="remove_fields"><i class="fa fa-plus">Remove Field</i></a>
+       </div>
+       </div> 
+    
+    <script src="script.js"></script>
+</body>
+</html>
